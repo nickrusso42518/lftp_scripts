@@ -1,0 +1,8 @@
+debug 5
+set ftp:passive-mode no
+lcd ~
+open -u ftpuser,ftppass 172.31.83.78
+cd configs
+put R3.cfg
+chmod 0664 R3.cfg
+ls

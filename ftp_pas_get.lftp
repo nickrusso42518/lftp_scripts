@@ -1,0 +1,7 @@
+debug 5
+set ftp:passive-mode yes
+lcd ~
+open -u ftpuser,ftppass 172.31.83.78
+ls
+cd configs
+get R1.cfg
