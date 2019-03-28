@@ -1,1 +1,1 @@
-tftp 172.31.83.78 -v -c put configs/R3.cfg configs/R3.cfg
+tftp 10.2.5.5 -v -c put R3.cfg

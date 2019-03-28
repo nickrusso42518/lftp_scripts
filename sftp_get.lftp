@@ -1,7 +1,6 @@
 debug 5
 set sftp:auto-confirm yes
-lcd ~
-open sftp://ftpuser:ftppass@172.31.83.78
+open sftp://ftpuser:ftppass@10.2.5.5
+cd ftp
 ls
-cd ftp/configs
 get R1.cfg

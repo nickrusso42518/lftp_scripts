@@ -1,8 +1,6 @@
 debug 5
 set ftp:passive-mode no
 set ssl:verify-certificate no
-lcd ~
-open -u ftpuser,ftppass 172.31.83.78
+open -u ftpuser,ftppass 10.2.5.5
 ls
-cd configs
 get R1.cfg

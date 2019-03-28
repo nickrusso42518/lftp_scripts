@@ -1,1 +1,1 @@
-tftp 172.31.83.78 -v -c get configs/R1.cfg configs/R1.cfg
+tftp 10.2.5.5 -v -c get R1.cfg
